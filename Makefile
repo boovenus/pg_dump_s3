@@ -1,4 +1,4 @@
-IMAGE_NAME=pg_backup_ubuntu_app
+IMAGE_NAME=pg_dump_ubuntu_app
 
 build:
 	docker build -t $(IMAGE_NAME) .
