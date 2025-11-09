@@ -1,10 +1,19 @@
+# Команды
+
+```shell
 make build
+```
 
+```shell
 make run
+```
 
+```shell
 make stop
+```
 
+## Отладка
 
-#Отладка
-
+```shell
 docker compose up -d
+```
