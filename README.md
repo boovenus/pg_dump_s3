@@ -15,5 +15,5 @@ make stop
 ## Отладка
 
 ```shell
-docker compose up -d
+make compose
 ```

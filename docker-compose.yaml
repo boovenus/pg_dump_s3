@@ -17,7 +17,7 @@ services:
   backup:
     build:
       context: .
-    container_name: backup
+    container_name: dump
     environment:
       PGHOST: db
       PGUSER: ${POSTGRES_USER}
